@@ -20,7 +20,7 @@ function Navbar() {
 
 
     return (
-        <header style={scrollClick ? { background: "rgba(0, 255, 255, 0.692)" } : { background: "unset" }}>
+        <div className='navbar' style={scrollClick ? { background: "rgba(0, 255, 255, 0.692)" } : { background: "unset" }}>
             <h1>BIZNES.<span style={{ color: "#016CA8" }}>IT</span></h1>
             <ul style={{}} className={isMobile ? "media" : "nav_links"}
                 onClick={() => setIsMobile(false)}>
@@ -35,7 +35,7 @@ function Navbar() {
                 {isMobile ? (<FaTimes />) : (<AiOutlineAlignCenter />)}
             </div>
 
-        </header>
+        </div>
     )
 }
 
