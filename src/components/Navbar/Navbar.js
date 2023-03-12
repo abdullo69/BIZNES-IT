@@ -42,7 +42,7 @@ function Navbar() {
                         <h1>
                             Ro'yxatdan o'tish</h1>
                         <input type="text" placeholder='Email' />
-                        <input type="text" placeholder='password' />
+                        <input type="password" placeholder='password' />
                         <button className='kirishnp'>Kirish</button>
                         <p>Parolni unitdingizmi</p>
                         <div onClick={toggleModal} className="overlay"></div>
